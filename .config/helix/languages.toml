@@ -1,0 +1,6 @@
+[[language]]
+name = "python"
+# rulers = [89]
+roots = ["pyproject.toml"]
+auto-format = true
+formatter = { command = "sh", args = ["-c", "black --quiet - | isort -"] }
