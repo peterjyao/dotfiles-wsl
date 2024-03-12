@@ -1,0 +1,11 @@
+set incfilter true
+set nohidden
+set ratios '1:2:2'
+set info size:time
+set infotimefmtold '2006-01-02  15:04'
+set infotimefmtnew '2006-01-02  15:04'
+map <tab> toggle
+map p :paste;clear
+# set cursorpreviewfmt "\033[7m"
+set cursorpreviewfmt ""
+map o $vd "$f"
